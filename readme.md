@@ -21,6 +21,10 @@ Instalando as dependências
 pip install httpx parsel
 ```
 
+```shell
+pip install dataparser
+```
+
 Ou no UV
 ```shell
 uv add httpx parsel
@@ -75,3 +79,11 @@ A ideia é entender as palavras, como elas se relacionam. E uma visualização d
 Vai ser no formato mais simples possível, forzão sem frescura, sem async sem nada.
 A ideia aqui é a análise não o scrapping
 
+
+# Dicas
+
+Executar um script python e gerar as saídas dos print em um arquivo.
+
+```shell
+python scrapper.py > scrapper.log
+```
